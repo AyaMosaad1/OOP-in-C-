@@ -8,7 +8,7 @@ private:
         float*p;
         int s;
 public :
-   /*dynamic array's constructure */
+   /*dynamic array's constructior*/
 dynmarr(){s=0; p = NULL ;}
 
 void set_s(int i){ s = i; p = new float[s];}
